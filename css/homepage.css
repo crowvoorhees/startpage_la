@@ -1,0 +1,142 @@
+/*
+	Fonts
+*/
+@import url(http://fonts.googleapis.com/css?family=Roboto+Mono);
+
+/*
+	Page Setup
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*::-webkit-input-placeholder{
+	opacity: 0.3;
+}
+
+body{
+	/*background: #222;*/
+	padding-top: 5%;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+}
+
+p, li, a{
+	/*color: #fd7070;*/
+	color: black;
+	font-family: Lato, Consolas;
+	font-weight: 300;
+	letter-spacing:2px;
+}
+
+/*
+	Favorite
+*/
+.favorites{
+	width: 90%;
+	margin: 10px auto 0 auto;
+	text-align: center;
+}
+
+.favorites p{
+	/*border-bottom: 1px solid #fd7070;*/
+	border-bottom: 1px solid black;
+	padding-right: 100%;
+}
+
+.list{
+	display: inline-block;
+	width: 15%;
+	margin: 0 15px;
+	vertical-align: text-top;
+	text-align: left
+}
+
+.list ul{
+	list-style-type: none;
+}
+
+a{
+	text-decoration: none;
+	display: block;
+	padding: 3px;
+}
+
+a:hover{
+	/*color: #222;*/
+	color: white;
+	/*background: #fd7070;*/
+	background: black;
+}
+
+/*
+	buttons
+*/
+.buttons{
+	width: 90%;
+	margin: 60px auto;
+	text-align: center;
+}
+
+.buttons p{
+	display: inline-block;
+	width: 20%;
+	margin: 0 10px;
+	/*border: 1px solid #fd7070;*/
+	border: 1px solid black;
+}
+
+/*
+	Search Bars
+*/
+form{
+	width: 90%;
+	margin: auto;
+	padding: 5px;
+	text-align: center;
+	position: relative;
+}
+
+.search{
+	width: 400px;
+	height: 20px;
+	margin-right: -4px;
+	padding: 2px 0px 2px 5px;
+	/*background: #222;*/
+	backgroud: white;
+	/*color: #fd7070;*/
+	color: black;
+	/*border: 1px solid #444;*/
+	border: 1px solid black;
+}
+
+.search:hover{
+	/*border: 1px solid #666;*/
+}
+
+.search:focus{
+	outline: none;
+	/*border: 1px solid #fd7070;*/
+}
+
+.go{
+	height: 26px;
+	width: 40px;
+	/*background: #222;*/
+	background: black;
+	/*color: #fd7070;*/
+	color: white;
+	/*border: 1px solid #fd7070;*/
+	border: 1px solid black;
+}
+
+.go:hover{
+	/*background: #fd7070;*/
+	/*color: #222;*/
+	cursor: pointer;
+}
+
+.go:focus{
+	outline: none;
+}
